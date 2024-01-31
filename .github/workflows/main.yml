@@ -20,6 +20,6 @@ jobs:
     - name: Push to Codeberg
       uses: yesolutions/mirror-action@master
       with:
-        REMOTE: 'https://codeberg.org/valentineus/wecli.git'
+        REMOTE: '${{ secrets.CODEBERG_REPOSITORY }}}'
         GIT_USERNAME: ${{ secrets.CODEBERG_USERNAME }}
         GIT_PASSWORD: ${{ secrets.CODEBERG_PASSWORD }}
