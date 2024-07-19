@@ -1,0 +1,26 @@
+# Project information
+site_name: WeCLI
+site_url: https://wecli.popov.link/
+site_author: Valentin Popov
+site_description: >-
+  Console utilities for SmartTV devices on webOS.
+
+# Repository
+repo_name: valentineus/wecli
+repo_url: https://github.com/valentineus/wecli
+
+# Copyright
+copyright: Copyright &copy; 2023 &mdash; 2024 Valentin Popov
+
+# Configuration
+theme:
+  name: material
+  language: en
+  palette:
+    scheme: slate
+
+# Additional configuration
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/valentineus/wecli
